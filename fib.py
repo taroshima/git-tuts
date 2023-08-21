@@ -1,5 +1,6 @@
 from functools import lru_cache
 
+#Adding cache for efficiency
 @lru_cache(maxsize=200)
 def fib(n):
     if n==1 or n==0:
